@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.fexible{
+    display: flex;
+    margin-bottom: 100px;
+
+
+}
+
+.header{
+    width: 60%;
+    float: left;
+    margin: 10px 70px;
+
+}
+
+.container{
+    margin: 40px ;
+
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: normal;
+    font-family: impact;
+    margin-top: 40px;
+
+}
+
+.header h1 span{
+    color: coral;
+}
+
+
+.header p{
+    font-weight: normal;
+    color: black;
+    font-weight: 700;
+    margin: 10px auto 40px;
+
+}
+
+.header a{
+    text-decoration: none;
+    background-color: chocolate;
+    color: white;
+    padding: 5px 50px ;
+    margin: 40px auto;
+    border-radius: 0.5pc;
+
+}
+
+.pic{
+    width: 40%;
+    float: left;
+}
+
+.pic img{
+    width: 400px;
+
+}
+
+.header .pic::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+ 
+
+
+.dream{
+    width: 60%;
+    float: right;
+}
+
+.big{
+    margin: 50px ;
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+.dream h1{
+    font-size: 50px;
+    font-weight: normal;
+    font-family: impact;
+    margin-top: 40px;
+
+}
+
+.dream h3{
+    color: black;
+    font-weight: bold;
+}
+
+
+.dream p{
+    font-weight: normal;
+    color: black;
+    font-weight: 700;
+    margin: 10px auto 40px;
+
+}
+
+.dream a{
+    text-decoration: none;
+    background-color: chocolate;
+    color: white;
+    padding: 5px 50px ;
+    margin: 40px auto;
+    border-radius: 0.5pc;
+
+}
+
+.pic{
+    width: 50%;
+    float: right;
+}
+
+.pic img{
+    width: 400px;
+
+}
+
+.header .pic::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.ex{
+    text-align: left;
+}
+
+.ex h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20PX;
+
+}
+
+.ex-area{
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px;
+    box-shadow: 20px 10px 40px yellow;
+    border-radius: 10px;
+    float: left;
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-left: 10px solid black;
+
+
+}
+
+.area h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.area h3{
+    color: tomato;
+    margin: 10px;
+
+
+}
+
+.area p{
+    text-align: justify;
+    font-family: arial;
+
+}
+
+
+.ex-area2{
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px;
+    box-shadow: 20px 10px 40px yellow;
+    border-radius: 10px;
+    float: left;
+    border-left: 10px solid black;
+
+
+}
+
+.area2 h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.area2 h3{
+    color: tomato;
+    margin: 10px;
+
+
+}
+
+.area2 p{
+    text-align: justify;
+    font-family: arial;
+
+}
+
+.ex-area .ex-area2::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fexibol{
+    margin: 150px;
+
+}
